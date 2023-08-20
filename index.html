@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .checked {
+      color: orange;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <section class="lg:w-full bg-[#F9F6E2]">
+      <div class="lg:flex  justify-center items-center   ">
+        <div class="lg:space-y-8 space-y-3 p-5">
+          <h3 class="text-2xl font-medium text-center">---SALE FEVER---</h3>
+          <h1 class="text-5xl font-bold"> Purchase TK 200 or <br> above & get
+            <span class="text-[#E527B2]">20% off</span>
+          </h1>
+          <div class="flex items-center  gap-4 px-10 ">
+            <h1 class="font-medium">Use Promo Code</h1>
+            <button class="px-6 py-2 text-white rounded-lg bg-[#E527B2]">SELL200</button>
+          </div>
+        </div>
+        <div>
+          <img class="" src="./images/Summer 1.png" alt="">
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+
+    <!-- Kitchenware -->
+
+    <section class="lg:flex justify-center lg:space-x-16 bg-[#F8F8F8] ">
+
+      <section class="lg:mt-20 container mx-auto ">
+        <div>
+          <h1 class="font-bold text-3xl mb-5 p-6">Kitchenware</h1>
+          <div class="lg:flex gap-10">
+
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_5.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_5" class=" modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class=" text-center space-y-4">
+                    <img class="mx-auto" src="./images/congo.png" alt="">
+                    <h3 class="font-bold text-3xl">Congratulations</h3>
+                    <p class="text-center">Your Purchase the product</p>
+                    <button class="px-6 py-2 text-white bg-[#E527B2] 
+                     border border-none rounded-lg ">Go Home</button>
+                  </div>
+                </form>
+              </dialog>
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod1.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">K. Accessories</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">39.00 TK</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_6.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                  <div class=" text-center space-y-4">
+                    <img class="mx-auto" src="./images/congo.png" alt="">
+                    <h3 class="font-bold text-3xl">Congratulations</h3>
+                    <p class="text-center">Your Purchase the product</p>
+                    <button class="px-6 py-2 text-white bg-[#E527B2] 
+                     border border-none rounded-lg ">Go Home</button>
+                  </div>
+                </form>
+              </dialog>
+
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod2.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">K. Accessories</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">26.00 TK</h1>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- card 3 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_7.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2]
+                    border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod3.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Home Cooker</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">40.00 TK</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 2card section -->
+
+        <div class="lg:mt-20">
+          <h1 class="font-bold text-3xl mb-5 p-6">Sportswear</h1>
+          <div class="lg:flex gap-10">
+
+            <!-- card 4 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_8.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2]
+                    border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod4.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">KSports Back Cap</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">60.00 TK</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_10.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_10" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2] 
+                   border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod5.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Full Jersey Set</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">69.00 TK</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_9.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_9" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2]
+                    border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod6.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Sports cates</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">140.00 TK</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3card section -->
+        <div class="lg:mt-20">
+          <h1 class="font-bold text-3xl mb-5 p-6">Furniturer</h1>
+          <div class="lg:flex gap-10">
+
+            <!-- card 7 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_25.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_25" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2] 
+                   border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod7.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Single Relax Chair</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">186.00 TK</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card 8 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_2.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2] 
+                   border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod8.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Children play</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">269.00 TK</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card 9 -->
+            <div class="card w-96 bg-base-100 shadow-md " onclick="my_modal_3.showModal()">
+              <!-- Open the modal using ID.showModal() method -->
+              <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle">
+                <form method="dialog" class="modal-box">
+                 <div class=" text-center space-y-4">
+                   <img class="mx-auto" src="./images/congo.png" alt="">
+                  <h3 class="font-bold text-3xl">Congratulations</h3>
+                  <p class="text-center">Your Purchase the product</p>
+                  <button class="px-6 py-2 text-white bg-[#E527B2] 
+                   border border-none rounded-lg ">Go Home</button>
+                 </div>
+                </form>
+              </dialog>
+
+
+              <figure class="px-10 pt-10">
+                <div class=" w-[300px] h-[200px] bg-slate-200">
+                  <img src="/images/prod9.png" alt="Shoes" class="rounded-xl mx-auto pt-10" />
+                </div>
+              </figure>
+              <div class="card-body items-center text-center">
+                <div>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p class="font-bold text-2xl">Flexible Sofa</p>
+                <div class="card-actions">
+                  <h1 class="font-semibold">314.00 TK</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!--  -->
+
+      <section class="container mx-auto lg:mt-52 
+      ">
+        <div class=' space-y-2  lg:w-[352px] lg:h-[148px] p-5 bg-white'> 
+          <h1 class="font-medium text-2xl">Have coupon?</h1>
+          <div class="join">
+            <input class="input input-bordered join-item" placeholder="Coupon code" />
+            <button class="lg:px-6 py-2 text-white 
+            rounded-r-full bg-[#E527B2]">Apply</button>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+  </main>
+
+
+
+</body>
+
+</html>
